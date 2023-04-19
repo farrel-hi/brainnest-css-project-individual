@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /* min-width: 100%; */
+    height: 50px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+img.logo{
+    height: 20px;
+    width: auto;
+}
+
